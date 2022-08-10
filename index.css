@@ -4,7 +4,7 @@ body{
 }
 header{
     border: 1px solid blue;
-    padding: 10px;
+    padding: 15px;
     background-image: url(bunga.jpg); 
     color: white;
 }
@@ -15,19 +15,15 @@ header a{
 
 header a:hover {
     color: skyblue;
+    font-weight: 900;
 }
-
-header a:visited {
-    color: rgb(1, 1, 105);
-}
-
 
 nav{
     text-align: right;
-    font-size: 20px;
 }
 
 h1 {
+    color: wheat;
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 50px;
@@ -40,8 +36,5 @@ main a {
 
 main a:hover {
     color: skyblue;
-}
-
-main a:visited {
-    color: rgb(61, 61, 61);
+    font-weight: bold;
 }
