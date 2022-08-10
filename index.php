@@ -22,15 +22,15 @@ if( !isset($_SESSION["login"]) ) {
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+
 <header>
     <nav>
         <a href="logout.php"><b>logout</b></a>
     </nav>
         <h1>Cindy Florist</h1>
         <a href="tambah.php"><b> tambah data cindy florist </b></a>
-    <br><br>
 </header>
-    <br>
+
     <form action="" method="post">
 
         <input type="text" name="keyword" size="40" autofocus
